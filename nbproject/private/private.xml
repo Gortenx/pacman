@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/GUI.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>103</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/prg/myapps/Pacman/src/ServerActivityLog.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/GUI.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/Character.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/ActivityLog.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/Ghost.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/Cache.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/XMLConfigParameters.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/GameArea.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/XMLValidator.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/GameStyle.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/Ranked.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/CacheManager.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/DBManager.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/Pacman.java</file>
+            <file>file:/C:/prg/myapps/Pacman/src/Game.java</file>
+        </group>
+    </open-files>
+</project-private>

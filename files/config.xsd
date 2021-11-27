@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config.xsd -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="XMLConfigParameters">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="dbName" type="xs:string"/> 
+      <xs:element name="dbHostname" type="xs:string"/>
+      <xs:element name="dbPort" type="xs:integer"/>
+      <xs:element name="dbUsername" type="xs:string"/>
+      <xs:element name="dbPassword" type="xs:string"/>
+      <xs:element name="pacmanColor" type="xs:string"/>
+      <xs:element name="ghostColor" type="xs:string"/>
+      <xs:element name="wallColor" type="xs:string"/>
+      <xs:element name="foodColor" type="xs:string"/>
+      <xs:element name="bgColor" type="xs:string"/>
+      <xs:element name="width" type="xs:integer"/>
+      <xs:element name="height" type="xs:integer"/>
+      <xs:element name="scoreMultiplier">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="10"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>     
+      <xs:element name="kRanked">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="3"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>      
+      <xs:element name="gameSpeed">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="10"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>      
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

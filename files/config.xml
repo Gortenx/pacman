@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config.xml -->
+<XMLConfigParameters>
+  <dbName>pacman</dbName>
+  <dbHostname>localhost</dbHostname>
+  <dbPort>3306</dbPort>
+  <dbUsername>root</dbUsername>
+  <dbPassword></dbPassword>
+  <pacmanColor>yellow</pacmanColor>
+  <ghostColor>red</ghostColor>
+  <wallColor>blue</wallColor>
+  <foodColor>gray</foodColor>
+  <bgColor>#4C4C4C</bgColor>
+  <width>854</width>
+  <height>480</height>
+  <scoreMultiplier>2</scoreMultiplier> <!-- min:1; max: 10; default: 2-->
+  <kRanked>10</kRanked> <!-- min:3; max: inf; default: 10 -->
+  <gameSpeed>6</gameSpeed> <!-- min:1; max:10; default: 6;-->
+</XMLConfigParameters>
