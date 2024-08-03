@@ -1,4 +1,4 @@
-# Pacman-java-clone
+# Pacman-Java-Clone
 (IT) Clone di Pacman sviluppato in Java.
 
 Progetto sviluppato per il corso di Programmazione Java, Ingegneria Informatica, [UNIPI](https://github.com/Unipisa). 
